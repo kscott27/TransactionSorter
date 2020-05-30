@@ -1,5 +1,20 @@
 # TransactionSorter
 
+## Instructions for setting up the development environment
+
+From the root of this repository, run the following script to install PyQt5 and a few other module dependencies (python3 and pip3 must already be installed on your system for this script to work):
+
+`$ bash ./env/install-pyqt5.sh`
+
+Once the dependencies are installed, the program can be run with the following command:
+
+`$ python3 BootGUI.py`
+
+The GUI window should appear and the program should be running.
+
+
+## Program design insight
+
 The TransactionSorter is a personal financial management application. It offers several 
 analytical tools for a comprehensive overview of the user’s financial standing- past, present,
 and future. The application takes several user-defined benchmarks that will then itemize
